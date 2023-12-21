@@ -12,7 +12,7 @@ Adoption: Despite its popularity, Dogecoin is still not widely adopted and may n
 
 Energy consumption: Cryptocurrency mining can consume significant amounts of energy, leading to environmental concerns.
 
-Limited use cases: While Dogecoin has a strong community and is used for charitable donations and online transactions, it has limited real-world use cases compared to more established cryptocurrencies.
+Limited use cases: While Dogecoin has a strong community and is used for charitable donations and online transactions, it has limited real-world use cases.
 
 These issues highlight the need for continued improvement and innovation in the cryptocurrency space to address these challenges and provide a more stable and secure experience for users.
 
