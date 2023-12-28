@@ -1,3 +1,13 @@
+<h1 align="center">
+<br>
+<a href=""><img src="https://twitter.com/Greatape42069E/photo" alt="" width="500px;"></a>
+<br>
+<img src="https://img.shields.io/github/last-commit/GreatApe42069/Dogecoin?style=flat"> 
+<img src="https://img.shields.io/badge/PRs-welcome-cyan">
+<a href="https://twitter.com/intent/follow?screen_name=GreatApe42069E"><img src="https://img.shields.io/twitter/follow/GreatApe42069E?style=flat&logo=twitter"></a>
+</h1>
+
+
 Dogecoin, like any other cryptocurrency, has some potential problems and limitations that need to be considered. Here are some of the common issues with Dogecoin and the code to Fix them:
 
 Scalability: Dogecoin, like many other cryptocurrencies, faces scalability issues due to its limited block size and block time. This can lead to slow transaction processing and high fees during periods of high network traffic.
