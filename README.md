@@ -155,7 +155,7 @@ Remember to adapt the code based on your project structure, dependencies, and bu
 
 # Energy-Efficient Mining Algorithm:
 
-***This implementation showcases the use of alternative mining algorithms to reduce the energy consumption of cryptocurrency mining. The example uses the Ethash algorithm, known for its energy efficiency compared to traditional PoW algorithms.***
+***This implementation of "eco-mining_ethash.cpp" showcases the use of alternative mining algorithms to reduce the energy consumption of cryptocurrency mining. The example uses the Ethash algorithm, known for its energy efficiency compared to traditional PoW algorithms.***
 
 ## Implementation:
 
