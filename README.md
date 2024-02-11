@@ -10,14 +10,14 @@
 </h1>
 
 
-# DOGECOIN Improvements
+# DOGECOIN Improvements:
 
 Dogecoin, like any other cryptocurrency, has some potential problems and limitations that need to be considered. Here are some of the common issues with Dogecoin and the code to Fix them:
 
 # Latency: 
 ***-"Latency_upgrade.cpp"*** Fast Network Latency Improvements are aimed at enhancing the network latency of the Dogecoin blockchain. This codes contributions focused on optimizing various factors, including block time, network propagation, and mining algorithm speed. ***These improvements would be integrated into the Dogecoin node***
 
-# Implementation Details 
+# Implementation Details: 
 
 **Fast Block Time Method:**
 *-This method optimizes the block time, setting it to the lowest possible value of 2 seconds, ensuring faster transaction confirmations.*
@@ -150,12 +150,54 @@ Remember to adapt the code based on your project structure, dependencies, and bu
 # Adoption:
  Despite its popularity, Dogecoin is still not widely adopted and may not be accepted as a means of payment by many merchants and institutions.
 
-# Energy consumption:
- Cryptocurrency mining can consume significant amounts of energy, leading to environmental concerns.
+# Dogecoin Energy Consumption Improvement:
+**Cryptocurrency mining can consume significant amounts of energy, leading to environmental concerns.**
+
+***-This implementation presents an energy consumption improvement by adopting the Proof-of-Stake (PoS) consensus algorithm, an alternative to the traditional Proof-of-Work (PoW) algorithm. PoS significantly reduces energy consumption by eliminating the need for miners to solve complex mathematical problems for transaction validation.***
+
+## Implementation:
+
+*The provided C++ code in **"Energy_consumption_switch_to_pos.cpp"** demonstrates how to switch to the Proof-of-Stake consensus algorithm for energy-efficient transaction validation in the Dogecoin network.*
+
+# Usage Instructions:
+***Follow these steps to integrate the provided energy consumption improvement code into your Dogecoin project:**
+
+**Include Headers:**
+
+*-Include the necessary headers in your project to access the Dogecoin library.*
+
+**Initialization:**
+
+*-Create an instance of the Network class using Network::init().*
+
+**Consensus Algorithm Configuration:**
+
+*-Set the Dogecoin network to use the Proof-of-Stake consensus algorithm: network.setConsensusAlgorithm(ProofOfStake).*
+
+**Start the Network:**
+
+*-Begin the Dogecoin network by calling network.start().*
+
+**Wait for Stabilization:**
+
+*-Allow time for the network to stabilize and ensure proper functioning. Implement any necessary waiting mechanisms.*
+
+**Stop the Network:**
+
+*-Safely stop the Dogecoin network when done with network.stop().*
+
+**Build and Test:**
+
+*-Build your Dogecoin project with the energy consumption improvement code and thoroughly test its functionality.*
+
+**Integration Complete:**
+
+***-Once testing is successful, the energy consumption improvement using the Proof-of-Stake algorithm is integrated into your Dogecoin project.
+Adjust the code based on your project structure, dependencies, and build system. Stay informed about energy-efficient consensus algorithms and consider testing the algorithm's performance under various conditions.***
 
 # Energy-Efficient Mining Algorithm:
 
-***This implementation of "eco-mining_ethash.cpp" showcases the use of alternative mining algorithms to reduce the energy consumption of cryptocurrency mining. The example uses the Ethash algorithm, known for its energy efficiency compared to traditional PoW algorithms.***
+*This implementation of **"eco-mining_ethash.cpp"** showcases the use of alternative mining algorithms to reduce the energy consumption of cryptocurrency mining. The example uses the Ethash algorithm, known for its energy efficiency compared to traditional PoW algorithms.*
 
 ## Implementation:
 
@@ -192,7 +234,7 @@ Remember to adapt the code based on your project structure, dependencies, and bu
 
 *-Build your Dogecoin project with the energy-efficient mining algorithm code and thoroughly test its functionality.*
 
-**Integration Complete:
+**Integration Complete:**
 
 *-Once testing is successful, the energy-efficient mining algorithm is integrated into your Dogecoin project.
 Adjust the code based on your project structure, dependencies, and build system. Stay informed about energy-efficient mining practices and consider testing the algorithm's performance under various conditions.*
