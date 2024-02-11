@@ -130,9 +130,14 @@ Feel free to customize the code and instructions based on your project's specifi
 
 
 # *Scalability:* 
-`ImplementBlockSizeIncrease.cpp` Dogecoin Improvement Proposal (DOIP-XXXX) Block Size Increase This proposal suggests increasing Dogecoin's block size to enhance scalability. The proposed changes are encapsulated in a C++
+**This method sets the block size to 8 megabytes, aiming to improve scalability**
 
-*Implementation Details The DOIPXXXX class contains a method named `ImplementBlockSizeIncrease`, which accepts a Network object as a parameter. This method sets the block size to 8 megabytes, aiming to improve scalability.*
+***Note: An 8x block size may raise valid storage impact concerns, but its a step towards scalability. Tech evolves; optimizations & pruning solutions are possible. Faster transactions attract more users, fortifying Doge's relevance. The proposed block size increase is exploratory, considering tech advancements and network optimizations.***
+
+`ImplementBlockSizeIncrease.cpp` Dogecoin Improvement Proposal (DOIP-XXXX) Block Size Increase 
+This proposal suggesting increasing Dogecoin's Block size to enhance scalability. This method sets the block size to 8 megabytes, aiming to improve scalability. The proposed changes are encapsulated in a C++
+
+*Implementation Details The DOIPXXXX class contains a method named `ImplementBlockSizeIncrease`, which accepts a Network object as a parameter.*
 
 # Usage :
 **To apply this proposal and enhance Dogecoin's scalability, follow these simple steps:** 
