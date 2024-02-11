@@ -10,12 +10,13 @@
 </h1>
 
 
+# ĐOGECOIN Improvements
 
 Dogecoin, like any other cryptocurrency, has some potential problems and limitations that need to be considered. Here are some of the common issues with Dogecoin and the code to Fix them:
 
 **Latency:** *"Latency_upgrade.cpp"* Fast Network Latency Improvements are aimed at enhancing the network latency of the Dogecoin blockchain. This codes contributions focused on optimizing various factors, including block time, network propagation, and mining algorithm speed. ***These improvements would be integrated into the Dogecoin node***
 
-**Implementation Details**
+# Implementation Details 
 
 Fast Block Time Method:
 *This method optimizes the block time, setting it to the lowest possible value of 2 seconds, ensuring faster transaction confirmations.*
