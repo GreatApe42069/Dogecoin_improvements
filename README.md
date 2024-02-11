@@ -14,7 +14,8 @@
 
 Dogecoin, like any other cryptocurrency, has some potential problems and limitations that need to be considered. Here are some of the common issues with Dogecoin and the code to Fix them:
 
-**Latency:** *"Latency_upgrade.cpp"* Fast Network Latency Improvements are aimed at enhancing the network latency of the Dogecoin blockchain. This codes contributions focused on optimizing various factors, including block time, network propagation, and mining algorithm speed. ***These improvements would be integrated into the Dogecoin node***
+# *Latency:* 
+*"Latency_upgrade.cpp"* Fast Network Latency Improvements are aimed at enhancing the network latency of the Dogecoin blockchain. This codes contributions focused on optimizing various factors, including block time, network propagation, and mining algorithm speed. ***These improvements would be integrated into the Dogecoin node***
 
 # Implementation Details 
 
@@ -70,27 +71,35 @@ Improved Network Efficiency:
 **The proposed changes are not only theoretically sound but also align with the goals of improving the Dogecoin network's performance**
 
 
-**Scalability:** *"ImplementBlockSizeIncrease.cpp"* Dogecoin, like many other cryptocurrencies, faces scalability issues due to its limited block size and block time. This can lead to slow transaction processing and high fees during periods of high network traffic. ***Dogecoin Scalability Improvement for node.***
+# *Scalability:* 
+*"ImplementBlockSizeIncrease.cpp"* Dogecoin, like many other cryptocurrencies, faces scalability issues due to its limited block size and block time. This can lead to slow transaction processing and high fees during periods of high network traffic. ***Dogecoin Scalability Improvement for node.***
 
-*Addressing all the issues with Dogecoin requires a comprehensive approach, and a single code snippet may not provide a complete solution. However, for tackling scalability concerns, here's a C++ gist that attempts to increase the block size in the Dogecoin codebase. This can potentially enhance the network's capacity to process more transactions per block. Usage To apply this code, simply initialize the Dogecoin network, set the desired block size using network.setBlockSize, start the network, wait for it to stabilize, and then stop the network.*
+*Addressing all the issues with Dogecoin requires a comprehensive approach, and a single code snippet may not provide a complete solution. However, for tackling scalability concerns, here's code in C++ that attempts to increase the block size in the Dogecoin codebase. This can potentially enhance the network's capacity to process more transactions per block. **Usage To apply this code, simply initialize the Dogecoin network, set the desired block size using network.setBlockSize, start the network, wait for it to stabilize, and then stop the network.**
 
-**Scalability:** * Scalability_increase_blocksize.cpp"* Dogecoin Improvement Proposal (DOIP-XXXX) Block Size Increase This proposal suggests increasing Dogecoin's block size to enhance scalability. The proposed changes are encapsulated in a C++
+# *Scalability:* 
+*Scalability_increase_blocksize.cpp"* Dogecoin Improvement Proposal (DOIP-XXXX) Block Size Increase This proposal suggests increasing Dogecoin's block size to enhance scalability. The proposed changes are encapsulated in a C++
 
 *Implementation Details The DOIPXXXX class contains a method named implementBlockSizeIncrease, which accepts a Network object as a parameter. This method sets the block size to 8 megabytes, aiming to improve scalability.*
 
 *Usage To apply this proposal, create an instance of the DOIPXXXX class and call the implementBlockSizeIncrease method with the initialized Network object. This should be executed in the main function.*
 
-**Security:** Dogecoin is vulnerable to hacking and security breaches, which can result in the loss of funds for users.
+# *Security:* 
+Dogecoin is vulnerable to hacking and security breaches, which can result in the loss of funds for users.
 
-**Regulation:** Cryptocurrencies like Dogecoin face regulatory challenges as they are often not recognized as legal tender by governments and financial institutions.
+# *Regulation:*
+ Cryptocurrencies like Dogecoin face regulatory challenges as they are often not recognized as legal tender by governments and financial institutions.
 
-**Volatility:** The value of Dogecoin and other cryptocurrencies can be highly volatile, making it a risky investment.
+# *Volatility:*
+ The value of Dogecoin and other cryptocurrencies can be highly volatile, making it a risky investment.
 
-**Adoption:** Despite its popularity, Dogecoin is still not widely adopted and may not be accepted as a means of payment by many merchants and institutions.
+# *Adoption:*
+ Despite its popularity, Dogecoin is still not widely adopted and may not be accepted as a means of payment by many merchants and institutions.
 
-**Energy consumption:** Cryptocurrency mining can consume significant amounts of energy, leading to environmental concerns.
+# *Energy consumption:*
+ Cryptocurrency mining can consume significant amounts of energy, leading to environmental concerns.
 
-**Limited use cases:** While Dogecoin has a strong community and is used for charitable donations and online transactions, it has limited real-world use cases.
+# *Limited use cases:*
+ While Dogecoin has a strong community and is used for charitable donations and online transactions, it has limited real-world use cases.
 
 *These issues highlight the need for continued improvement and innovation in the cryptocurrency space to address these challenges and provide a more stable and secure experience for users.*
 
@@ -98,4 +107,5 @@ Improved Network Efficiency:
 
 *The development community's ability to address these challenges and continue to evolve the technology will play a significant role in determining the future of Dogecoin.*
 
-**Important Note** These codes are untested and may require thorough testing and consideration before being implemented in a live environment.
+# *Important Note*
+ These codes are untested and may require thorough testing and consideration before being implemented in a live environment.
