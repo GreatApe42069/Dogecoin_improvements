@@ -97,6 +97,38 @@ Feel free to customize the code and instructions based on your project's specifi
 
 *Addressing all the issues with Dogecoin requires a comprehensive approach, and a single code snippet may not provide a complete solution. However, for tackling scalability concerns, here's code in C++ that attempts to increase the block size in the Dogecoin codebase. This can potentially enhance the network's capacity to process more transactions per block. **Usage To apply this code, simply initialize the Dogecoin network, set the desired block size using network.setBlockSize, start the network, wait for it to stabilize, and then stop the network.**
 
+## Usage:
+
+***To apply this code and enhance Dogecoin's scalability, follow these simple steps:***
+
+1. **Include Headers:**
+   - Ensure you have included the necessary Dogecoin library headers in your project.
+
+2. **Initialization:**
+   - Create an instance of the `Network` class using `Network::init()`.
+
+3. **Block Size Configuration:**
+   - Set the desired block size for improved scalability using `network.setBlockSize(size)`.
+
+4. **Start the Network:**
+   - Begin the Dogecoin network by calling `network.start()`.
+
+5. **Wait for Stabilization:**
+   - Allow time for the network to stabilize. Implement any necessary waiting mechanisms.
+
+6. **Stop the Network:**
+   - Safely stop the Dogecoin network when done with `network.stop()`.
+
+7. **Build and Test:**
+   - Build your Dogecoin project with the scalability improvement code and thoroughly test its functionality.
+
+## Important Note
+
+- It's crucial to test the scalability improvements thoroughly in a controlled environment before deploying them to a live network.
+- Adjust the block size value based on your specific requirements and consider potential impacts on network performance.
+
+
+
 # *Scalability:* 
 `ImplementBlockSizeIncrease.cpp` Dogecoin Improvement Proposal (DOIP-XXXX) Block Size Increase This proposal suggests increasing Dogecoin's block size to enhance scalability. The proposed changes are encapsulated in a C++
 
