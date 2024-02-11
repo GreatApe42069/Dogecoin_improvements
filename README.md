@@ -85,7 +85,7 @@ I want to emphasize that these changes are technically feasible, and when implem
 # Dogecoin Security Improvement:
 **Dogecoin is vulnerable to hacking and security breaches, which can result in the loss of funds for users.**
 
-**To enhance the security of Dogecoin, this implementation demonstrates the use of stronger encryption algorithms and recommends regularly updating the codebase to address security vulnerabilities.**
+**To enhance the security of Dogecoin, this implementation of "Improve-Security.cpp" demonstrates the use of stronger encryption algorithms and recommends regularly updating the codebase to address security vulnerabilities.**
 
 ## Implementation:
 
@@ -147,11 +147,55 @@ Remember to adapt the code based on your project structure, dependencies, and bu
 # *Volatility:*
  The value of Dogecoin and other cryptocurrencies can be highly volatile, making it a risky investment.
 
-# *Adoption:*
+# Adoption:
  Despite its popularity, Dogecoin is still not widely adopted and may not be accepted as a means of payment by many merchants and institutions.
 
-# *Energy consumption:*
+# Energy consumption:
  Cryptocurrency mining can consume significant amounts of energy, leading to environmental concerns.
+
+# Energy-Efficient Mining Algorithm:
+
+***This implementation showcases the use of alternative mining algorithms to reduce the energy consumption of cryptocurrency mining. The example uses the Ethash algorithm, known for its energy efficiency compared to traditional PoW algorithms.***
+
+## Implementation:
+
+*_The provided C++ code demonstrates how to implement the Ethash mining algorithm for energy-efficient mining in the Dogecoin network.*
+
+**Usage Instructions:**
+*_Follow these steps to integrate the provided energy-efficient mining algorithm code into your Dogecoin project:*
+
+**Include Headers:**
+
+*-Include the necessary headers in your project to access the Dogecoin library and Ethash.*
+
+**Initialization:**
+
+*-Create an instance of the Network class using Network::init().*
+
+**Mining Algorithm Configuration:**
+
+*-Set the desired mining algorithm for energy-efficient mining. In this example, Ethash is used: network.setMiningAlgorithm(Ethash).*
+
+**Start the Network:**
+
+*-Begin the Dogecoin network by calling network.start().*
+
+**Wait for Stabilization:**
+
+*-Allow time for the network to stabilize and ensure proper functioning. Implement any necessary waiting mechanisms.*
+
+**Stop the Network:**
+
+*-Safely stop the Dogecoin network when done with network.stop().**
+
+**Build and Test:**
+
+*-Build your Dogecoin project with the energy-efficient mining algorithm code and thoroughly test its functionality.*
+
+**Integration Complete:
+
+*-Once testing is successful, the energy-efficient mining algorithm is integrated into your Dogecoin project.
+Adjust the code based on your project structure, dependencies, and build system. Stay informed about energy-efficient mining practices and consider testing the algorithm's performance under various conditions.*
 
 # *Limited use cases:*
  While Dogecoin has a strong community and is used for charitable donations and online transactions, it has limited real-world use cases.
@@ -162,5 +206,5 @@ Remember to adapt the code based on your project structure, dependencies, and bu
 
 *The development community's ability to address these challenges and continue to evolve the technology will play a significant role in determining the future of Dogecoin.*
 
-# *Important Note*
- These codes are untested and may require thorough testing and consideration before being implemented in a live environment.
+# Important Note:
+ ***These codes are untested and may require thorough testing and consideration before being implemented in a live environment.***
