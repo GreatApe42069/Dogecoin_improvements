@@ -141,14 +141,6 @@ I want to emphasize that these changes are technically feasible, and when implem
 *-Once testing is successful, the security improvements are integrated into your Dogecoin project.
 Remember to adapt the code based on your project structure, dependencies, and build system. Additionally, stay informed about security best practices and update the codebase regularly to address emerging vulnerabilities.*
 
-# *Regulation:*
- Cryptocurrencies like Dogecoin face regulatory challenges as they are often not recognized as legal tender by governments and financial institutions.
-
-# *Volatility:*
- The value of Dogecoin and other cryptocurrencies can be highly volatile, making it a risky investment.
-
-# Adoption:
- Despite its popularity, Dogecoin is still not widely adopted and may not be accepted as a means of payment by many merchants and institutions.
 
 # Dogecoin Energy Consumption & Mining Improvements:
 ***The code snippets provided are written in C++, and they are meant to showcase two different approaches to address energy consumption in the context of a Dogecoin-like cryptocurrency.***
@@ -157,7 +149,7 @@ Remember to adapt the code based on your project structure, dependencies, and bu
 
 *This code snippet suggests changing the consensus algorithm from Proof-of-Work (PoW) to Proof-of-Stake (PoS) for Dogecoin. PoS generally requires less energy compared to PoW, as it doesn't involve solving computationally intensive puzzles. However, switching the consensus algorithm is a significant modification to the cryptocurrency's protocol.*
 
-***Implementing Ethash Algorithm:***
+# *Implementing Ethash Algorithm:*
 
 *-This code snippet proposes implementing the Ethash algorithm as a mining algorithm for Dogecoin. Ethash is used in Ethereum and is considered more energy-efficient than traditional PoW algorithms. Implementing a different mining algorithm is another approach to reducing energy consumption in cryptocurrency mining.
 It's important to note that these snippets are independent concepts. They present two distinct ways to address energy consumption but are not intended to be used together in a single implementation.* 
@@ -250,6 +242,15 @@ Adjust the code based on your project structure, dependencies, and build system.
 
 *-Once testing is successful, the energy-efficient mining algorithm is integrated into your Dogecoin project.
 Adjust the code based on your project structure, dependencies, and build system. Stay informed about energy-efficient mining practices and consider testing the algorithm's performance under various conditions.*
+
+# *Regulation:*
+ Cryptocurrencies like Dogecoin face regulatory challenges as they are often not recognized as legal tender by governments and financial institutions.
+
+# *Volatility:*
+ The value of Dogecoin and other cryptocurrencies can be highly volatile, making it a risky investment.
+
+# *Adoption:*
+ Despite its popularity, Dogecoin is still not widely adopted and may not be accepted as a means of payment by many merchants and institutions.
 
 # *Limited use cases:*
  While Dogecoin has a strong community and is used for charitable donations and online transactions, it has limited real-world use cases.
