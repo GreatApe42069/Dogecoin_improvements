@@ -93,21 +93,21 @@ Feel free to customize the code and instructions based on your project's specifi
 
 
 # Scalability: 
-***Scalability_increase_blocksize.cpp"*** Dogecoin, like many other cryptocurrencies, faces scalability issues due to its limited block size and block time. This can lead to slow transaction processing and high fees during periods of high network traffic. ***Dogecoin Scalability Improvement for node.***
+`***Scalability_increase_blocksize.cpp***` Dogecoin, like many other cryptocurrencies, faces scalability issues due to its limited block size and block time. This can lead to slow transaction processing and high fees during periods of high network traffic. ***Dogecoin Scalability Improvement for node.***
 
 *Addressing all the issues with Dogecoin requires a comprehensive approach, and a single code snippet may not provide a complete solution. However, for tackling scalability concerns, here's code in C++ that attempts to increase the block size in the Dogecoin codebase. This can potentially enhance the network's capacity to process more transactions per block. **Usage To apply this code, simply initialize the Dogecoin network, set the desired block size using network.setBlockSize, start the network, wait for it to stabilize, and then stop the network.**
 
 # *Scalability:* 
-***"ImplementBlockSizeIncrease.cpp"*** Dogecoin Improvement Proposal (DOIP-XXXX) Block Size Increase This proposal suggests increasing Dogecoin's block size to enhance scalability. The proposed changes are encapsulated in a C++
+`***"ImplementBlockSizeIncrease.cpp"***` Dogecoin Improvement Proposal (DOIP-XXXX) Block Size Increase This proposal suggests increasing Dogecoin's block size to enhance scalability. The proposed changes are encapsulated in a C++
 
-*Implementation Details The DOIPXXXX class contains a method named implementBlockSizeIncrease, which accepts a Network object as a parameter. This method sets the block size to 8 megabytes, aiming to improve scalability.*
+*Implementation Details The DOIPXXXX class contains a method named ***implementBlockSizeIncrease***, which accepts a Network object as a parameter. This method sets the block size to 8 megabytes, aiming to improve scalability.*
 
 *Usage To apply this proposal, create an instance of the DOIPXXXX class and call the implementBlockSizeIncrease method with the initialized Network object. This should be executed in the main function.*
 
 # Dogecoin Security Improvement:
 **Dogecoin is vulnerable to hacking and security breaches, which can result in the loss of funds for users.**
 
-**To enhance the security of Dogecoin, this implementation of "Improve-Security.cpp" demonstrates the use of stronger encryption algorithms and recommends regularly updating the codebase to address security vulnerabilities.**
+**To enhance the security of Dogecoin, this implementation of `"Improve-Security.cpp"` demonstrates the use of stronger encryption algorithms and recommends regularly updating the codebase to address security vulnerabilities.**
 
 ## Implementation:
 
@@ -130,17 +130,17 @@ Feel free to customize the code and instructions based on your project's specifi
 
 **Encryption Algorithm Configuration:**
 
-*-Set the desired encryption algorithm for improved security. In this example, SHA-256 is used: network.setEncryptionAlgorithm(SHA256).*
+*-Set the desired encryption algorithm for improved security. In this example, SHA-256 is used: `network.setEncryptionAlgorithm(SHA256)`.*
 
 
 **Check for Updates:**
 
-*-Regularly check for security updates using network.checkForUpdates().*
+*-Regularly check for security updates using `network.checkForUpdates()`.*
 
 
 **Start the Network:**
 
-*-Begin the Dogecoin network by calling network.start().*
+*-Begin the Dogecoin network by calling `network.start()`.*
 
 
 **Wait for Stabilization:**
@@ -150,7 +150,7 @@ Feel free to customize the code and instructions based on your project's specifi
 
 **Stop the Network:**
 
-*-Safely stop the Dogecoin network when done with network.stop().*
+*-Safely stop the Dogecoin network when done with `network.stop()`.*
 
 
 **Build and Test:**
@@ -183,7 +183,7 @@ It's important to note that these snippets are independent concepts. They presen
 
 ## Implementation:
 
-*The provided C++ code in **"Energy_consumption_switch_to_pos.cpp"** demonstrates how to switch to the Proof-of-Stake consensus algorithm for energy-efficient transaction validation in the Dogecoin network.*
+*The provided C++ code in `Energy_consumption_switch_to_pos.cpp` demonstrates how to switch to the Proof-of-Stake consensus algorithm for energy-efficient transaction validation in the Dogecoin network.*
 
 # Usage Instructions:
 ***Follow these steps to integrate the provided energy consumption improvement code into your Dogecoin project:**
@@ -194,15 +194,15 @@ It's important to note that these snippets are independent concepts. They presen
 
 **Initialization:**
 
-*-Create an instance of the Network class using Network::init().*
+*-Create an instance of the Network class using `Network::init()`.*
 
 **Consensus Algorithm Configuration:**
 
-*-Set the Dogecoin network to use the Proof-of-Stake consensus algorithm: network.setConsensusAlgorithm(ProofOfStake).*
+*-Set the Dogecoin network to use the Proof-of-Stake consensus algorithm: `network.setConsensusAlgorithm(ProofOfStake)`.*
 
 **Start the Network:**
 
-*-Begin the Dogecoin network by calling network.start().*
+*-Begin the Dogecoin network by calling `network.start()`.*
 
 **Wait for Stabilization:**
 
@@ -210,7 +210,7 @@ It's important to note that these snippets are independent concepts. They presen
 
 **Stop the Network:**
 
-*-Safely stop the Dogecoin network when done with network.stop().*
+*-Safely stop the Dogecoin network when done with `network.stop()`.*
 
 **Build and Test:**
 
@@ -223,7 +223,7 @@ Adjust the code based on your project structure, dependencies, and build system.
 
 # Energy-Efficient Mining Algorithm ethash:
 
-*This implementation of **"eco-mining_ethash.cpp"** showcases the use of alternative mining algorithms to reduce the energy consumption of cryptocurrency mining. The example uses the Ethash algorithm, known for its energy efficiency compared to traditional PoW algorithms.*
+*This implementation of `eco-mining_ethash.cpp` showcases the use of alternative mining algorithms to reduce the energy consumption of cryptocurrency mining. The example uses the Ethash algorithm, known for its energy efficiency compared to traditional PoW algorithms.*
 
 ## Implementation:
 
@@ -238,15 +238,15 @@ Adjust the code based on your project structure, dependencies, and build system.
 
 **Initialization:**
 
-*-Create an instance of the Network class using Network::init().*
+*-Create an instance of the Network class using `Network::init()`.*
 
 **Mining Algorithm Configuration:**
 
-*-Set the desired mining algorithm for energy-efficient mining. In this example, Ethash is used: network.setMiningAlgorithm(Ethash).*
+*-Set the desired mining algorithm for energy-efficient mining. In this example, Ethash is used: `network.setMiningAlgorithm(Ethash)`.*
 
 **Start the Network:**
 
-*-Begin the Dogecoin network by calling network.start().*
+*-Begin the Dogecoin network by calling `network.start()`.*
 
 **Wait for Stabilization:**
 
@@ -254,7 +254,7 @@ Adjust the code based on your project structure, dependencies, and build system.
 
 **Stop the Network:**
 
-*-Safely stop the Dogecoin network when done with network.stop().**
+*-Safely stop the Dogecoin network when done with `network.stop()`.*
 
 **Build and Test:**
 
@@ -276,7 +276,7 @@ Adjust the code based on your project structure, dependencies, and build system.
 
 # *Dogecoin Payment Processing Integration for 𝕏:* 
 
-**Dogecoin payment form handling code, along with implementation and usage instructions. The code for ***"Dogecoin_Payment_Processor_twitter-X.php"*** adds Đogecoin as a Payment Processor in Twitter / 𝕏:**
+**Dogecoin payment form handling code, along with implementation and usage instructions. The code for `Dogecoin_Payment_Processor_twitter-X.php` adds Đogecoin as a Payment Processor in Twitter / 𝕏:**
 
 # Usage Instructions:
 
@@ -288,11 +288,11 @@ Adjust the code based on your project structure, dependencies, and build system.
 
 **Payment Form Submission Handling:**
 
-*-The code includes a function (handle_payment_form_submit()) to handle Dogecoin payment form submissions. Ensure this function is called appropriately in your application.*
+*-The code includes a function `handle_payment_form_submit()` to handle Dogecoin payment form submissions. Ensure this function is called appropriately in your application.*
 
 **Update User Balance:**
 
-*-The update_user_balance() function updates the user's balance in the database after a successful Dogecoin payment. Ensure this function aligns with your database structure and user management system.*
+*-The `update_user_balance()` function updates the user's balance in the database after a successful Dogecoin payment. Ensure this function aligns with your database structure and user management system.*
 
 **Redirect on Success/Failure:**
 
