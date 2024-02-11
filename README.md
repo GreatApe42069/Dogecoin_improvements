@@ -134,7 +134,72 @@ Feel free to customize the code and instructions based on your project's specifi
 
 *Implementation Details The DOIPXXXX class contains a method named `ImplementBlockSizeIncrease`, which accepts a Network object as a parameter. This method sets the block size to 8 megabytes, aiming to improve scalability.*
 
-*Usage To apply this proposal, create an instance of the DOIPXXXX class and call the `ImplementBlockSizeIncrease` method with the initialized Network object. This should be executed in the main function.*
+# Usage :
+**To apply this proposal and enhance Dogecoin's scalability, follow these simple steps:** 
+
+*-Create an instance of the DOIPXXXX class and call the `ImplementBlockSizeIncrease` method with the initialized Network object. This should be executed in the main function.* 
+
+**Include Headers:**
+
+*-Ensure you have included the necessary Dogecoin library headers in your project.*
+
+**Initialization:**
+
+*-Create an instance of the Network class using `Network::init()`.*
+
+**Proposal Application:**
+
+*-Create an instance of the DOIPXXXX class.*
+Call the ImplementBlockSizeIncrease method with the initialized Network object.
+
+**Start the Network:**
+
+*-Begin the Dogecoin network by calling `network.start()`.*
+
+**Wait for Stabilization:**
+
+*-Allow time for the network to stabilize. Implement any necessary waiting mechanisms.*
+
+**Stop the Network:**
+
+*_Safely stop the Dogecoin network when done with `network.stop()`.*
+
+**Build and Test:**
+
+*-Build your Dogecoin project with the proposal code and thoroughly test its functionality.*
+
+***Important Note:***
+*-It's crucial to test the proposal thoroughly in a controlled environment before considering its implementation on a live network.
+-Adjust the block size value based on your specific requirements and consider potential impacts on network performance.*
+
+***Implementation Code:***
+// Include necessary headers
+#include <dogecoin/dogecoin.h>
+
+using namespace dogecoin;
+
+int main() {
+    // Initialize the Dogecoin network
+    Network network = Network::init();
+    
+    // Create an instance of the proposal class
+    DOIPXXXX doip;
+
+    // Apply the block size increase proposal
+    doip.ImplementBlockSizeIncrease(network);
+
+    // Start the Dogecoin network
+    network.start();
+    
+    // Wait for network to stabilize
+    // ...
+
+    // Stop the Dogecoin network
+    network.stop();
+    
+    return 0;
+}
+
 
 # Dogecoin Security Improvement:
 **Dogecoin is vulnerable to hacking and security breaches, which can result in the loss of funds for users.**
