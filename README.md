@@ -252,6 +252,35 @@ Adjust the code based on your project structure, dependencies, and build system.
 # *Adoption:*
  Despite its popularity, Dogecoin is still not widely adopted and may not be accepted as a means of payment by many merchants and institutions.
 
+# *Dogecoin Payment Processing Integration for 𝕏:* 
+
+**Dogecoin payment form handling code, along with implementation and usage instructions. The code for ***"Dogecoin_Payment_Processor_twitter-X.php"*** adds Đogecoin as a Payment Processor in Twitter / 𝕏:**
+
+# Usage Instructions:
+
+***Follow these steps to integrate the provided Dogecoin payment form handling code into your Twitter / 𝕏 application:***
+
+**Include Dogecoin Library:**
+
+*-Ensure the Dogecoin library is included in your project. Adjust the path accordingly.*
+
+**Payment Form Submission Handling:**
+
+*-The code includes a function (handle_payment_form_submit()) to handle Dogecoin payment form submissions. Ensure this function is called appropriately in your application.*
+
+**Update User Balance:**
+
+*-The update_user_balance() function updates the user's balance in the database after a successful Dogecoin payment. Ensure this function aligns with your database structure and user management system.*
+
+**Redirect on Success/Failure:**
+
+*-Adjust the header('Location: ...') redirects based on your application's success and failure pages.
+
+**Customize and Test:**
+
+*-Customize the code to fit your application's specific requirements and test thoroughly to ensure the proper integration of Dogecoin payments.
+Feel free to adapt the code and instructions based on your application's structure and requirements.*
+
 # *Limited use cases:*
  While Dogecoin has a strong community and is used for charitable donations and online transactions, it has limited real-world use cases.
 
