@@ -93,21 +93,21 @@ Feel free to customize the code and instructions based on your project's specifi
 
 
 # Scalability: 
-`***Scalability_increase_blocksize.cpp***` Dogecoin, like many other cryptocurrencies, faces scalability issues due to its limited block size and block time. This can lead to slow transaction processing and high fees during periods of high network traffic. ***Dogecoin Scalability Improvement for node.***
+`Scalability_increase_blocksize.cpp` Dogecoin, like many other cryptocurrencies, faces scalability issues due to its limited block size and block time. This can lead to slow transaction processing and high fees during periods of high network traffic. ***Dogecoin Scalability Improvement for node.***
 
 *Addressing all the issues with Dogecoin requires a comprehensive approach, and a single code snippet may not provide a complete solution. However, for tackling scalability concerns, here's code in C++ that attempts to increase the block size in the Dogecoin codebase. This can potentially enhance the network's capacity to process more transactions per block. **Usage To apply this code, simply initialize the Dogecoin network, set the desired block size using network.setBlockSize, start the network, wait for it to stabilize, and then stop the network.**
 
 # *Scalability:* 
-`***"ImplementBlockSizeIncrease.cpp"***` Dogecoin Improvement Proposal (DOIP-XXXX) Block Size Increase This proposal suggests increasing Dogecoin's block size to enhance scalability. The proposed changes are encapsulated in a C++
+`ImplementBlockSizeIncrease.cpp` Dogecoin Improvement Proposal (DOIP-XXXX) Block Size Increase This proposal suggests increasing Dogecoin's block size to enhance scalability. The proposed changes are encapsulated in a C++
 
-*Implementation Details The DOIPXXXX class contains a method named ***implementBlockSizeIncrease***, which accepts a Network object as a parameter. This method sets the block size to 8 megabytes, aiming to improve scalability.*
+*Implementation Details The DOIPXXXX class contains a method named `ImplementBlockSizeIncrease`, which accepts a Network object as a parameter. This method sets the block size to 8 megabytes, aiming to improve scalability.*
 
-*Usage To apply this proposal, create an instance of the DOIPXXXX class and call the implementBlockSizeIncrease method with the initialized Network object. This should be executed in the main function.*
+*Usage To apply this proposal, create an instance of the DOIPXXXX class and call the `ImplementBlockSizeIncrease` method with the initialized Network object. This should be executed in the main function.*
 
 # Dogecoin Security Improvement:
 **Dogecoin is vulnerable to hacking and security breaches, which can result in the loss of funds for users.**
 
-**To enhance the security of Dogecoin, this implementation of `"Improve-Security.cpp"` demonstrates the use of stronger encryption algorithms and recommends regularly updating the codebase to address security vulnerabilities.**
+**To enhance the security of Dogecoin, this implementation of `Improve-Security.cpp` demonstrates the use of stronger encryption algorithms and recommends regularly updating the codebase to address security vulnerabilities.**
 
 ## Implementation:
 
@@ -125,7 +125,7 @@ Feel free to customize the code and instructions based on your project's specifi
 
 **Initialization:**
 
-*-Create an instance of the Network class using Network::init().*
+*-Create an instance of the Network class using `Network::init()`.*
 
 
 **Encryption Algorithm Configuration:**
